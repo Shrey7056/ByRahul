@@ -1,0 +1,28 @@
+git config --global user.name "shrey" ===== set username for first time
+
+
+git config --global user.email "upadhyayshrey7056@gmail.com" == set email id
+
+git config --list == set list of item include name and email id
+
+
+
+Three stage of archtecture in git
+1) working directory
+
+
+2) staging area
+
+
+3) git directory (Repository)
+
+git status == to check the status of out files
+
+if file is empty or if you want to init your files as git directory then
+git init   ===== it will create a hidden git folder
+
+if you want to add all your file into staging area then
+git add --a == it will add all the files into staging area
+
+git commit -m "Initial Commit" === if you want to commit changes then use these command
+
